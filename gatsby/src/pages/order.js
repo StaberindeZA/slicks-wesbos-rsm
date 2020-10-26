@@ -31,8 +31,6 @@ export default function OrderPage({ data }) {
     values,
   });
 
-  console.log('This is loading', loading);
-
   if (message) {
     return <p>{message}</p>;
   }
